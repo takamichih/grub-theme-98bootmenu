@@ -1,0 +1,193 @@
+title-text: ""
+message-color: "#fff"
+desktop-color: "#000"
++label {
+  top = 50%-200
+  left = 50%-256
+  height = 16
+  text = "固定ディスク起動メニュープログラム ＧＲＵＢ ﾊﾞｰｼﾞｮﾝ 2.02~rc1"
+  color = "#fff"
+}
++label {
+  top = 50%-184
+  left = 50%-256
+  height = 16
+  text = "Copyright (C) Free Software Foundation 1999,2017"
+  color = "#fff"
+}
++label {
+  top = 50%-152
+  left = 50%-256
+  height = 16
+  text = "処　理：領域の選択（起動）"
+  color = "#fff"
+}
++label {
+  top = 50%-120
+  left = 50%-256
+  height = 16
+  text = "固定ディスク　　　＃１"
+  color = "#fff"
+}
++image {
+  top = 50%-105
+  left = 50%-254
+  width = 176
+  height = 1
+  file = "white.c.tga"
+}
++label {
+  top = 50%-88
+  left = 50%-256
+  height = 16
+  text = "メ　ニ　ュ　ー　終　了"
+  color = "#fff"
+}
++label {
+  id = "__timeout__"
+  top = 50%+162
+  left = 50%-176
+  height = 16
+  color = "#fff"
+  text = "自動起動に設定された領域が%3d秒後に起動します"
+}
++label {
+  top = 50%+178
+  left = 50%-288
+  height = 16
+  color = "#fff"
+  text = "説明：↑・↓キー＝領域の選択　Ｅキー＝領域の編集　リターンキー＝起動"
+}
++label {
+  top = 50%+194
+  left = 50%-288
+  height = 16
+  color = "#fff"
+  text = "　　　Ｅｓｃキー＝戻る　Ｃキー＝コマンドの入力"
+}
++boot_menu {
+  top = 50%-120
+  left = 50%-16
+  width = 272
+  height = 256
+  item_color = "#fff"
+  selected_item_color = "#000"
+  selected_item_pixmap_style = "white.*.tga"
+  icon_width = 0
+  item_height = 16
+  item_padding = 0
+  item_icon_space = 0
+  item_spacing = 0
+}
++label {
+  top = 50%-120
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = " 1:"
+}
++label {
+  top = 50%-104
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = " 2:"
+}
++label {
+  top = 50%-88
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = " 3:"
+}
++label {
+  top = 50%-72
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = " 4:"
+}
++label {
+  top = 50%-56
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = " 5:"
+}
++label {
+  top = 50%-40
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = " 6:"
+}
++label {
+  top = 50%-24
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = " 7:"
+}
++label {
+  top = 50%-8
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = " 8:"
+}
++label {
+  top = 50%+8
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = " 9:"
+}
++label {
+  top = 50%+24
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = "10:"
+}
++label {
+  top = 50%+40
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = "11:"
+}
++label {
+  top = 50%+56
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = "12:"
+}
++label {
+  top = 50%+72
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = "13:"
+}
++label {
+  top = 50%+88
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = "14:"
+}
++label {
+  top = 50%+104
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = "15:"
+}
++label {
+  top = 50%+120
+  left = 50%-40
+  height = 16
+  color = "#fff"
+  text = "16:"
+}
